@@ -25,15 +25,15 @@ function setHands(){
 
 function setBackground(currentHour){
   if(currentHour==23 && currentHour>=0 && currentHour<=5)
-    background.style.background="url('../backgrounds/night.jpg')"
+    background.style.background="url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/2LNYZK7HO2.jpg')"
   else if(currentHour>=6 && currentHour<=9)
-    background.style.background="url('../backgrounds/sunrise.jpg')"
+    background.style.background="url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/QN7UD2N402.jpg')"
   else if(currentHour>=10 && currentHour<=17)
-    background.style.background="url('../backgrounds/sunny.jpg')"
+    background.style.background="url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/HHD5NX16SI.jpg')"
   else if(currentHour>=18 && currentHour<=19)
-    background.style.background="url('../backgrounds/evening.jpg')"
+    background.style.background="url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/KJEBFF9JBF.jpg')"
   else if(currentHour>=20 && currentHour<=22)
-    background.style.background="url('../backgrounds/sunset.jpg')"
+    background.style.background="url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/ZVV7HW23A1.jpg')"
 }
 
 
