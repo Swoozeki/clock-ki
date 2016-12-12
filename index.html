@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLOCK-KI | A real-time clock</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div id="background">
+      <div class="container">
+        <h1 id="title">CLOCK-KI</h1>
+        <svg id="clock">
+          <circle id="body"></circle>
+          <line class="hand" id="hour-hand" x1="160" y1="160" x2="160" y2="70"></line>
+          <line class="hand" id="minute-hand" x1="160" y1="160" x2="160" y2="50"></line>
+          <line class="hand" id="second-hand" x1="160" y1="160" x2="160" y2="40"></line>
+          <circle id="clock-center"></circle>
+        </svg>
+        <h3 id="information">a realtime clock that ticks!</h3>
+        <audio src="tick.wav" id="tick"></audio>
+      </div>
+    </div>
+    <script src="scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
