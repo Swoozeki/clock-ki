@@ -24,7 +24,7 @@ function setHands(){
 }
 
 function setBackground(currentHour){
-  if(currentHour==23 && currentHour>=0 && currentHour<=5)
+  if(currentHour==23 || (currentHour>=0 && currentHour<=5))
     background.style.background="url('https://i.imgsafe.org/dfd9058167.jpg')"
   else if(currentHour>=6 && currentHour<=9)
     background.style.background="url('https://i.imgsafe.org/dfd777b799.jpg')"
